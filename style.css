@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.bar{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    background: color(prophoto-rgb red green blue);
+    z-index: 1000;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.bar-item{
+    color: aquamarine;
+    padding: 0.25px;
+    margin: 7%;
+}
+.messi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.messi p{
+    margin-left: 40px;
+}
+p a{
+    color: coral;
+    font-size: 21px;
+}
+span{
+    columns: blue;
+    font-size: 2rem;
+}
+h1:hover:{
+    background-color: coral;
+}
