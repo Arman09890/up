@@ -45,6 +45,6 @@ span{
     columns: blue;
     font-size: 2rem;
 }
-h1:hover:{
-    background-color: coral;
+h1:hover{
+   color: coral;
 }
